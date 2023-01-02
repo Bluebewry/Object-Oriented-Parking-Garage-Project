@@ -21,12 +21,13 @@ Your parking gargage class should have the following methods:
    - This should decrease the amount of parkingSpaces available by 1
 - payForParking
    - Display an input that waits for an amount from the user and store it in a variable
-   - If the payment variable is not empty then (meaning the ticket has been paid) ->  display a message to the user that their ticket has been paid and they have 15mins to leave
+   - If the payment variable is not empty then (meaning the ticket has been paid) ->  display a message to
+      the user that their ticket has been paid and they have 15mins to leave
    - This should update the "currentTicket" dictionary key "paid" to True
--leaveGarage
+- leaveGarage
    - If the ticket has been paid, display a message of "Thank You, have a nice day"
    - If the ticket has not been paid, display an input prompt for payment
-      - Once paid, display message "Thank you, have a nice day!"
+   - Once paid, display message "Thank you, have a nice day!"
    - Update parkingSpaces list to increase by 1 (meaning add to the parkingSpaces list)
    - Update tickets list to increase by 1 (meaning add to the tickets list)
 
@@ -41,4 +42,17 @@ When the project is completed, commit the final changes, sync all pull requests,
 
 
 ###### List group responsiblities below:
-###### Provide name and approxamite line numbers where each person wrote their code
+Laurent and I just worked on a zoom called and finished this together basically
+I was the "driver" the entire time and Laurent was the "navigator" since I was the only one able to share screen
+
+
+
+
+###### Provide name and approxamite line numbers where each person wrote their code:
+Baileigh:
+lines 1-18
+line 20,21,23,24
+lines 28-39
+Again me and Laurent worked on this together so I helped him through this
+
+
